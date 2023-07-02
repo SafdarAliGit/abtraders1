@@ -199,3 +199,4 @@ app_license = "Tech Ventures"
 # auth_hooks = [
 #	"abtraders1.auth.validate"
 # ]
+required_apps = ["erpnext"]
