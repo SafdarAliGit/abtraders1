@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include abtraders1 *.css
+recursive-include abtraders1 *.csv
+recursive-include abtraders1 *.html
+recursive-include abtraders1 *.ico
+recursive-include abtraders1 *.js
+recursive-include abtraders1 *.json
+recursive-include abtraders1 *.md
+recursive-include abtraders1 *.png
+recursive-include abtraders1 *.py
+recursive-include abtraders1 *.svg
+recursive-include abtraders1 *.txt
+recursive-exclude abtraders1 *.pyc
