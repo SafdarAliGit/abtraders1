@@ -7,6 +7,11 @@ app_description = "this is business application"
 app_email = "safdar211@gmail.com"
 app_license = "Tech Ventures"
 
+doctype_js = {
+    "Sales Invoice": "public/js/sales_invoice.js",
+    "Sales Order": "public/js/sales_order.js"
+}
+
 # Includes in <head>
 # ------------------
 
