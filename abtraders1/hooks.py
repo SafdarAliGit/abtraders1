@@ -107,13 +107,11 @@ doctype_js = {
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-#	"*": {
-#		"on_update": "method",
-#		"on_cancel": "method",
-#		"on_trash": "method"
-#	}
-# }
+doc_events = {
+	"Sales Invoice": {
+		"before_save": "abtraders1.abtraders1.events.sales_invoice.custom_before_save",
+	}
+}
 
 # Scheduled Tasks
 # ---------------
