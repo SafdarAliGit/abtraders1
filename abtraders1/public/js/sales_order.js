@@ -10,7 +10,7 @@ frappe.ui.form.on('Sales Order', {
             },
             callback: function (r) {
                 if (r.message) {
-                    frm.set_value('current_outstanding', r.message);
+                    frm.set_value('custom_current_outstanding', r.message);
                 }
             }
         });
